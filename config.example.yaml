@@ -5,7 +5,7 @@ homeassistant:
 
 # Label that entities in Home Assistant must be tagged with so they can
 # (eventually) be discovered and logged automatically.
-label: "Longterm"
+label: "db"
 
 database:
   host: "your-db-host.local"
