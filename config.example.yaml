@@ -1,0 +1,15 @@
+homeassistant:
+  url: "http://homeassistant.local:8123"
+  token: "YOUR_HOME_ASSISTANT_LONG_LIVED_ACCESS_TOKEN"
+  timeout_seconds: 10
+
+# Label that entities in Home Assistant must be tagged with so they can
+# (eventually) be discovered and logged automatically.
+label: "Longterm"
+
+database:
+  host: "your-db-host.local"
+  port: 3306
+  user: "halogger"
+  password: "CHANGE_ME"
+  database: "halogger"
